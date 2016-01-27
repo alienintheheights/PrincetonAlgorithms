@@ -1,5 +1,5 @@
 # Princeton Algorithms
-The first two assignments (so far) for Coursera's Princeton Algorithm I course. 
+The first two assignments (so far) for Coursera's Princeton Algorithm I course. These are from the Jan 2015 version of the course. I'm updating them to use the Jan 2016 import changes.
 
 https://www.coursera.org/course/algs4partI
 
