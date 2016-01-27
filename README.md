@@ -1,2 +1,5 @@
 # PrincetonAlgorithms
-Assignments for Coursera's Princeton Algorithm I class. https://www.coursera.org/course/algs4partI
+The first two assignments (so far) for Coursera's Princeton Algorithm I course. 
+
+https://www.coursera.org/course/algs4partI
+
