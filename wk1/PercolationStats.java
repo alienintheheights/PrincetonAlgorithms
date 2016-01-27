@@ -1,3 +1,6 @@
+import edu.princeton.cs.algs4.StdOut;
+import edu.princeton.cs.algs4.StdRandom;
+import edu.princeton.cs.algs4.StdStats;
 /**
  * The <tt>PercolationStats</tt> class models <tt>Percolation</tt> test runs.
  * The input parameters are the matrix size, N, and the number of samples to
@@ -123,5 +126,4 @@ public class PercolationStats {
         StdOut.println("95% confidence interval = " + stats.confidenceLo()
                 + ", " + stats.confidenceHi());
     }
-
 }
