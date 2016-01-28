@@ -1,5 +1,8 @@
 import java.util.Iterator;
 
+import edu.princeton.cs.algs4.StdIn;
+import edu.princeton.cs.algs4.StdOut;
+
 /**
  **The <tt>Subset</tt> class provides an input mechanism for the shuffling
  *data.

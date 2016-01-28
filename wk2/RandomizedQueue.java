@@ -1,5 +1,9 @@
 import java.util.Iterator;
 
+import edu.princeton.cs.algs4.StdOut;
+import edu.princeton.cs.algs4.StdRandom;
+import edu.princeton.cs.algs4.Stopwatch;
+
 /**
  *The <tt>RandomizedQueue</tt> class models the data structure for selecting
  *random elements from the queue.
