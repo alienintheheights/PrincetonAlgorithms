@@ -25,5 +25,19 @@ Aggregate score: 100.00% [Correctness: 65%, Memory: 10%, Timing: 25%, Style: 0%]
 
 http://coursera.cs.princeton.edu/algs4/assignments/queues.html
 
+```
+Assessment Summary
+Compilation:  PASSED
+Style:        PASSED
+Findbugs:     No potential bugs found.
+API:          PASSED
+
+Correctness:  37/37 tests passed
+Memory:       53/53 tests passed
+Timing:       62/62 tests passed
+
+Aggregate score: 100.00% [Correctness: 65%, Memory: 10%, Timing: 25%, Style: 0%]
+```
+
 
 
