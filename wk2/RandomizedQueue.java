@@ -128,11 +128,6 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
         return (Item[]) new Object[size];
     }
 
-
-    /**
-     * return an independent iterator over items in random order
-     */
-
     /**
      *  return an iterator over items in order from front to end
      */
@@ -191,22 +186,22 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
             rq.dequeue();
             rq.sample();
         } catch (java.util.NoSuchElementException e) {
-            System.out.println("Caught exception " + e);
+            StdOut.println("Caught exception " + e);
         }
         Iterator<String> iter0 = rq.iterator();
         while (iter0.hasNext()) {
             String obj = iter0.next();
-            System.out.println(obj);
+            StdOut.println(obj);
         }
         try {
             iter0.next();
         } catch (java.util.NoSuchElementException e) {
-            System.out.println("Caught exception " + e);
+            StdOut.println("Caught exception " + e);
         }
 
         
         
-        System.out.println("End empty test");
+        StdOut.println("End empty test");
         Stopwatch timer = new Stopwatch();
         rq = new RandomizedQueue<String>();
         rq.enqueue("Hello");
@@ -232,13 +227,13 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
         rq.dequeue(); // I, I1, I6, You, And
 
 
-        System.out.println("Random sample " + rq.sample());
+        StdOut.println("Random sample " + rq.sample());
 
 
         Iterator<String> iter = rq.iterator();
         while (iter.hasNext()) {
             String obj = iter.next();
-            System.out.println(obj);
+            StdOut.println(obj);
         }
 
         StdOut.println("Run completed in " + timer.elapsedTime() + " seconds");
@@ -249,7 +244,7 @@ public class RandomizedQueue<Item> implements Iterable<Item> {
             timer = new Stopwatch();
             RandomizedQueue<Integer> rq2 = new RandomizedQueue<Integer>();
             for (int i = 0; i < k*size; i++) {
-                rq2.enqueue(new Integer(i));
+                rq2.enqueue(Integer.valueOf(i) );
             }
             // Dequeue it
             timer = new Stopwatch();

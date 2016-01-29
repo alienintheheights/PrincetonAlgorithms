@@ -1,5 +1,7 @@
 import java.util.Iterator;
 
+import edu.princeton.cs.algs4.StdOut;
+
 /**
  **The <tt>Deque</tt> class models the data structure for selecting
  *and removing the header and trailer elements from a doubly Linked List.
@@ -197,10 +199,10 @@ public class Deque<Item> implements Iterable<Item> {
         deck.addFirst("Hello");
         Iterator<String> iter = deck.iterator();
         while (iter.hasNext()) {
-            System.out.println(iter.next());
+            StdOut.println(iter.next());
         }
       
-        System.out.println("All Done");
+        StdOut.println("All Done");
         Deque<Integer> deck2 = new Deque<Integer>();
         
         deck2.addLast(101);
@@ -226,20 +228,19 @@ public class Deque<Item> implements Iterable<Item> {
         Iterator<Integer> iter2 = deck2.iterator();
         while (iter2.hasNext()) {
             int num = iter2.next();
-            System.out.println(num);
+            StdOut.println(num);
         }
-        System.out.println("All Done");
+        StdOut.println("All Done");
         
         deck2.addFirst(1); // 1
-        System.out.println(deck2.removeLast()); // 1=out, next last =null
+        StdOut.println(deck2.removeLast()); // 1=out, next last =null
         deck2.addFirst(3); // 3
         deck2.addFirst(4); // 4, 3
         iter2 = deck2.iterator();
         while (iter2.hasNext()) {
             int num = iter2.next();
-            System.out.println(num);
+            StdOut.println(num);
         }
-        
-        System.out.println("Finished.");
+        StdOut.println("Finished.");
     }
 }
