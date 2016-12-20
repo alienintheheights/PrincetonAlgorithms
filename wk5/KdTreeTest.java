@@ -14,8 +14,8 @@ import edu.princeton.cs.algs4.RectHV;
  */
 public class KdTreeTest {
     
-    private static final String CIRCLE_TEST_FILE = "/Users/andrew/Documents/MOOC/Software/Princeton/algorithmsclass/git/data/kdtree/circle10.txt";
-    private static final String CIRCLE_TEST_FILE2 = "/Users/andrew/Documents/MOOC/Software/Princeton/algorithmsclass/git/data/kdtree/circle10k.txt";
+    private static final String CIRCLE_TEST_FILE = "PATH_TO/data/kdtree/circle10.txt";
+    private static final String CIRCLE_TEST_FILE2 = "PATH_TO/data/kdtree/circle10k.txt";
 
     /**
      * Test method for {@link KdTree#insert(edu.princeton.cs.algs4.Point2D)}.
