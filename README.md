@@ -1,5 +1,5 @@
 # Princeton Algorithms
-The first two assignments (so far) for Coursera's Princeton Algorithm I course. These are from the Jan 2015 version of the course. I'm updating them to use the Jan 2016 import changes.
+The five assignments for Coursera's Princeton Algorithms, Part I. 
 
 https://www.coursera.org/course/algs4partI
 
@@ -38,6 +38,19 @@ Timing:       62/62 tests passed
 
 Aggregate score: 100.00% [Correctness: 65%, Memory: 10%, Timing: 25%, Style: 0%]
 ```
+
+#Assignment III: Collinear Points
+
+Aggregate score: 100.00%
+
+#Assignment IV: 8 Puzzle
+
+Aggregate score: 100.00%
+
+#Assignment V: Kd-Trees
+
+Aggregate score: 100.00%
+
 
 
 
