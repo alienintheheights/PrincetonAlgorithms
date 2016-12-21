@@ -41,13 +41,19 @@ Aggregate score: 100.00% [Correctness: 65%, Memory: 10%, Timing: 25%, Style: 0%]
 
 #Assignment III: Collinear Points
 
+http://coursera.cs.princeton.edu/algs4/assignments/collinear.html
+
 Aggregate score: 100.00%
 
 #Assignment IV: 8 Puzzle
 
+http://coursera.cs.princeton.edu/algs4/assignments/8puzzle.html
+
 Aggregate score: 100.00%
 
 #Assignment V: Kd-Trees
+
+http://coursera.cs.princeton.edu/algs4/assignments/kdtree.html
 
 Aggregate score: 100.00%
 
